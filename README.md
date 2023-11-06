@@ -4,7 +4,7 @@
 - Developed a debugging support tool by implementing delta debugging to minimize “interesting”
 - sets which resulted in the reduction of effort associated with software maintenance
 
-**Script 1: coverage project**
+**Script 1: is-failure-inducing-change**
 
 This script is designed for a code coverage project and has the following components:
 
@@ -24,7 +24,7 @@ This script is designed for a code coverage project and has the following compon
 
 8. **Overall Functionality**: This script essentially automates running a set of tests, comparing the program's output with the expected output, and reporting the results (pass or fail) for each test.
 
-**Script 2: is-interesting.sh**
+**Script 2: run-tests.sh**
 
 This script appears to be related to managing source code and patches. It performs the following actions:
 
